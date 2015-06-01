@@ -1,0 +1,26 @@
+development:
+  host: localhost
+  adapter: postgresql
+  encoding: unicode
+  database: ebzondb_development
+  pool: 5
+  username: ebzon_user
+  password: mint07
+
+test:
+  host: localhost
+  adapter: postgresql
+  encoding: unicode
+  database: ebzondb_test
+  pool: 5
+  username: ebzon_user
+  password: mint07
+
+production:
+  host: localhost
+  adapter: postgresql
+  encoding: unicode
+  database: ebzondb_production
+  pool: 5
+  username: ebzon_user
+  password: mint07
